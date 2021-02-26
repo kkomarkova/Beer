@@ -2,6 +2,7 @@ package com.example.beer;
 
 //This class includes the list of Beers using constructor define in Beer.java
 public class Beers {
+    
     private static final Beer[] beers = new Beer[]{
             new Beer(1, "Carlsberg", 4.6),
             new Beer(2, "Tuborg", 4.6),
