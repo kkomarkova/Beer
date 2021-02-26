@@ -12,7 +12,7 @@ public class Beer implements Serializable {
     }
 
     public Beer(int id, String name, double abv) {
-        this.id = id;
+        this.id = id ;
         this.name = name;
         this.abv = abv;
     }
