@@ -3,6 +3,7 @@ package com.example.beer;
 import java.io.Serializable;
 
 //This class includes the parameters of the beer
+
 public class Beer implements Serializable {
     private int id;
     private String name;
