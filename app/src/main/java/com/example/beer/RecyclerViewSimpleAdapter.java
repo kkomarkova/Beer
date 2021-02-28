@@ -64,8 +64,8 @@ public class RecyclerViewSimpleAdapter<T> extends RecyclerView.Adapter<RecyclerV
         this.onItemClickListener = itemClickListener;
     }
 
-    public interface OnItemClickListener<T> {
-        void onItemClick(View view, int position, T element);
+    public interface OnItemClickListener<Beer> {
+        void onItemClick(View view, int position, Beer beer);
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
